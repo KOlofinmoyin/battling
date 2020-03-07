@@ -9,6 +9,7 @@ require File.join(File.dirname(__FILE__), '..', 'app.rb')
   require 'sinatra'
   require 'simplecov'
   require 'simplecov-console'
+  require 'features/web_helpers.rb'
 
   Capybara.app = Battling
 
