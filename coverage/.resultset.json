@@ -54,9 +54,9 @@
           1,
           null,
           1,
-          2,
-          1,
-          2,
+          4,
+          4,
+          4,
           null,
           1,
           1,
@@ -65,15 +65,15 @@
           null,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/student/Project/Private_Practice/battling/lib/game.rb": {
-        "lines": [
+          1,
+          1,
           1,
           null,
+          null,
+          null,
           1,
-          3,
+          1,
+          1,
           null,
           null,
           null
@@ -101,26 +101,8 @@
           null,
           null
         ]
-      },
-      "/Users/student/Project/Private_Practice/battling/lib/player.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          10,
-          10,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1583616301
+    "timestamp": 1583618318
   }
 }
