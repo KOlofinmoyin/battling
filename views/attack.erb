@@ -6,6 +6,12 @@
   </head>
   <body>
     <h2><%=@game.player_1.name%> attacked <%=@game.player_2.name%></h2>
+    <h2><%=@game.player_1.name%>: <%=@game.player_1.hit_points%>HP </h2>
     <h2><%=@game.player_2.name%>: <%=@game.player_2.hit_points%>HP </h2>
+    <h2><%=@game.current_turn.name%>'s turn</h2>
+
+    <form action="/switch-turns" method="post">
+      <input type="submit" value="Attack">
+    </form>
   </body>
 </html>
